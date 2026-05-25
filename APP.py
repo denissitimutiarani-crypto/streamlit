@@ -15,7 +15,7 @@ class KategoriNode:
 
         for sub in self.sub_kategori:
             hasil = f"{indentasi}{simbol}{self.nama}"
-            return hasil
+        return hasil
 
     def cari_node(self, target_nama):
         # Mencari node spesifik untuk menambahkan anak di bawahnya
