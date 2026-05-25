@@ -56,6 +56,8 @@ st.write("aplikasi interaktif untuk menstimulasikan struktur data tree.")
 #inisialisasi session state untuk menyimpan struktur tree agar tidak hilang saat halaman di refresh
 if 'root' not in st.session_state:
     st.session_state.root = None
+
+if st.session_state.root is None:
     st.info("sistem belum memiliki kategori utama. silahkan buat terlebih dahulu.")
     nama_root = st.text_input("masukkan nama kategori utama (Root):",
     value="toko saya")
