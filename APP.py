@@ -69,7 +69,7 @@ else:
     root = st.session_state.root
 
     #mengganti menu CLI dengan sistem tab yang lebih modern
-    tab1, tab2, tab3 = st.tabs(["📂 lihat struktur", " "➕ tambah sub-kategori","🔎cari jalur"])
+    tab1, tab2, tab3 = st.tabs(["📂 lihat struktur", "➕ tambah sub-kategori","🔎cari jalur"])
 
     #tab 1: lihat struktur
     with tab1:
