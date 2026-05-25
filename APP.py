@@ -88,7 +88,7 @@ else:
             if induk_nama and anak_nama:
                 induk_node = root.cari_node(induk_nama)
                 if induk_node:
-                    induk_node.tambah_sub(KategoriNode{anak_nama})
+                    induk_node.tambah_sub(KategoriNode(anak_nama))
                     st.success(f"berhasil menambhakan '{anak_nama} di bawah '{induk_node.nama}'!")
                 else:
                     st.error(f"kategori '{induk_nama} tidak ditemukan pastikan ejaannya benar.")
