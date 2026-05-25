@@ -48,7 +48,7 @@ class KategoriNode:
 # ==========================================
 
 
-st.set_page_config(page_title="struktur kategori", page_iconn=" + ")
+st.set_page_config(page_title="struktur kategori", page_icon=" + ")
 
 st.title("pembuat struktur kategori")
 st.write("aplikasi interaktif untuk menstimulasikan struktur data tree.")
